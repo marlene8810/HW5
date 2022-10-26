@@ -62,4 +62,6 @@ public class Player : MonoBehaviour
         // 產生出子彈
         Instantiate(bulletPrefab, firePoint.transform.position, transform.rotation);
     }
+
+    
 }
